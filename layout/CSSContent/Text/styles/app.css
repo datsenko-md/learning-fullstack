@@ -1,0 +1,44 @@
+body {
+  width: 700px;
+  margin: 0 auto;
+  padding: 100px 0;
+
+  font-family: serif;
+
+  background-color: #eee;
+}
+
+/* BEGIN (write your solution here) */
+h1,
+h2,
+h3,
+h4 {
+  text-align: center;
+  color: #646464;
+  font-weight: normal;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 70px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+p {
+  text-align: justify;
+  font-size: 16px;
+  color: #333;
+}
+
+/* END */

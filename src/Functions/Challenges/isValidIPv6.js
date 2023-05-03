@@ -106,7 +106,7 @@ export default (ip) => {
     return false;
   }
 
-  const isShort = ip.includes('::'); 
+  const isShort = ip.includes('::');
   const groups = ip.split('::')
     .filter((group) => group !== '')
     .flatMap((part) => part.split(':'));

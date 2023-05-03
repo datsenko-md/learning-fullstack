@@ -1,6 +1,7 @@
 // https://ru.hexlet.io/courses/js-objects/lessons/hash-table/exercise_unit
 
 /* eslint-disable no-param-reassign */
+/* eslint-disable import/no-unresolved */
 
 import crc32 from 'crc-32';
 

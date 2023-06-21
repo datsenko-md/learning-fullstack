@@ -23,6 +23,7 @@
   "type": "module",
   "homepage": "https://github.com/datsenko-md/learning-fullstack#readme",
   "dependencies": {
+    "@hexlet/immutable-fs-trees": "^0.7.1",
     "debug": "^4.3.4",
     "lodash": "^4.17.21"
   },

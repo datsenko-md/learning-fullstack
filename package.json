@@ -24,10 +24,13 @@
   "homepage": "https://github.com/datsenko-md/learning-fullstack#readme",
   "dependencies": {
     "@hexlet/immutable-fs-trees": "^0.7.1",
+    "date-fns": "^2.30.0",
     "debug": "^4.3.4",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "yup": "^1.2.0"
   },
   "devDependencies": {
+    "@faker-js/faker": "^8.0.2",
     "@jest/globals": "^29.0.1",
     "eslint": "^8.23.0",
     "eslint-config-airbnb-base": "^15.0.0",

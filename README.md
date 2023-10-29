@@ -24,11 +24,6 @@ make test
 
 ## Solutions
 
-* [Algorithms](src/Algorithms)
-    * [binarySearch](src/Algorithms/binarySearch.js)
-    * [breadthFirstSearch](src/Algorithms/breadthFirstSearch.js)
-    * [quickSort](src/Algorithms/quickSort.js)
-    * [selectionSort](src/Algorithms/selectionSort.js)
 * [Arrays](src/Arrays)
     * [Challenges](src/Arrays/Challenges)
         * [buildSnailPath](src/Arrays/Challenges/buildSnailPath.js)

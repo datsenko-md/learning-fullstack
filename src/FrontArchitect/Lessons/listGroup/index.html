@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta charset="UTF-8">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="./vendor/bootstrap/bootstrap.min.css">
+</head>
+
+<body class="bg-light">
+  <div class="container">
+    <div class="row">
+      <aside class="col-3 pt-3 min-vh-100 bg-body-secondary">
+        <div class="h3 mb-3">Навигация</div>
+        <nav class="list-group list-group-numbered" id="main-content-list" role="tablist">
+          <a
+            class="list-group-item active"
+            id="list-javascript-list"
+            data-bs-toggle="list"
+            href="#list-javascript"
+            role="tab"
+            aria-controls="list-javascript">
+            JavaScript
+          </a>
+          <a
+            class="list-group-item"
+            id="list-python-list"
+            data-bs-toggle="list"
+            href="#list-python"
+            role="tab"
+            aria-controls="list-python">
+            Python
+          </a>
+          <a
+            class="list-group-item"
+            id="list-ruby-list"
+            data-bs-toggle="list"
+            href="#list-ruby"
+            role="tab"
+            aria-controls="list-ruby">
+            Ruby
+          </a>
+        </nav>
+      </aside>
+      <main class="col-9 pt-3 px-5 border-start">
+        <h1 class="display-3 fw-bold">Популярные языки программирования</h1>
+        <small class="text-black-50">Для выбора языка используйте меню в левой части страницы</small>
+        <div class="card shadow tab-content mt-4" id="nav-mainContent">
+          <div
+            data-testid="list-javascript"
+            class="card-body tab-pane fade active show"
+            id="list-javascript"
+            role="tabpanel"
+            aria-labelledby="list-javascript-list">
+              <h2>JavaScript</h2>
+              <p>Мультипарадигменный язык программирования. Поддерживает объектно-ориентированный, императивный и функциональный стили. Является реализацией спецификации ECMAScript (стандарт ECMA-262).</p>
+              <p>JavaScript обычно используется как встраиваемый язык для программного доступа к объектам приложений. Наиболее широкое применение находит в браузерах как язык сценариев для придания интерактивности веб-страницам</p>
+              <h3>Основные архитектурные черты</h3>
+              <ul>
+                <li>Динамическая типизация</li>
+                <li>Слабая типизация</li>
+                <li>Автоматическое управление памятью</li>
+                <li>Прототипное программирование</li>
+                <li>Функции как объекты первого класса</li>
+              </ul>
+              <small class="text-black-50">Источник: https://ru.wikipedia.org/wiki/JavaScript</small>
+          </div>
+          <div
+            data-testid="list-python"
+            class="card-body tab-pane fade"
+            id="list-python" role="tabpanel"
+            aria-labelledby="list-python-list">
+              <h2>Python</h2>
+              <p>Высокоуровневый язык программирования общего назначения с динамической строгой типизацией и автоматическим управлением памятью, ориентированный на повышение производительности разработчика, читаемости кода и его качества, а также на обеспечение переносимости написанных на нём программ.</p>
+              <p>Стандартная библиотека включает большой набор полезных переносимых функций, начиная с возможностей для работы с текстом и заканчивая средствами для написания сетевых приложений. Дополнительные возможности, такие как математическое моделирование, работа с оборудованием, написание веб-приложений или разработка игр, могут реализовываться посредством обширного количества сторонних библиотек, а также интеграцией библиотек, написанных на Си или C++, при этом и сам интерпретатор Python может интегрироваться в проекты, написанные на этих языках.</p>
+              <h3>Популярность языка</h3>
+              <p>Python стал одним из самых популярных языков, он используется в анализе данных, машинном обучении, DevOps и веб-разработке, а также в других сферах, включая разработку игр. За счёт читабельности, простого синтаксиса и отсутствия необходимости в компиляции язык хорошо подходит для обучения программированию, позволяя концентрироваться на изучении алгоритмов, концептов и парадигм.</p>
+              <small class="text-black-50">Источник: https://ru.wikipedia.org/wiki/Python</small>
+          </div>
+          <div
+            data-testid="list-ruby"
+            class="card-body tab-pane fade"
+            id="list-ruby"
+            role="tabpanel"
+            aria-labelledby="list-ruby-list">
+              <h2>Ruby</h2>
+              <p>Динамический, рефлективный, интерпретируемый высокоуровневый язык программирования. Язык обладает независимой от операционной системы реализацией многопоточности, сильной динамической типизацией, сборщиком мусора и многими другими возможностями. По особенностям синтаксиса он близок к языкам Perl и Eiffel, по объектно-ориентированному подходу — к Smalltalk. Также некоторые черты языка взяты из Python, Lisp, Dylan и Клу.</p>
+              <p>В Японии Ruby стал популярным с момента появления первой общедоступной версии в 1995 году, однако наличие документации только на японском языке сдерживало его дальнейшее распространение. Лишь в 1997 году появилось описание Ruby на английском языке, а в 1998 году открылся форум «ruby-talk». Это положило начало росту известности языка в остальном мире. В начале 2000-х вышло несколько книг на английском языке, что способствовало росту популярности Ruby в Западной Европе и Америке. В 2003 году была выпущена версия Ruby 1.8.0, а в 2005 году появился веб-фреймворк Ruby on Rails, написанный на Ruby и сразу завоевавший признание благодаря лёгкости построения на нём типичных веб-приложений. Ruby в нём является не только языком реализации самого фреймворка, но и языком описания решений (в частности, используются HTML-шаблоны с встроенным кодом на Ruby).</p>
+              <small class="text-black-50">Источник: https://ru.wikipedia.org/wiki/Ruby</small>
+          </div>
+        </div>
+        <h2 class="mt-5 mb-3">Где изучать</h2>
+        <div class="list-group list-group-horizontal" id="secondary-content-list" role="tablist">
+          <a
+            class="list-group-item list-group-item-action active"
+            id="secondary-javascript-list"
+            data-bs-toggle="list"
+            href="#secondary-javascript"
+            role="tab"
+            aria-controls="secondary-javascript">
+            JavaScript
+          </a>
+          <a
+            class="list-group-item list-group-item-action"
+            id="secondary-python-list"
+            data-bs-toggle="list"
+            href="#secondary-python"
+            role="tab"
+            aria-controls="secondary-python">
+            Python
+          </a>
+          <a
+            class="list-group-item list-group-item-action"
+            id="secondary-ruby-list"
+            data-bs-toggle="list"
+            href="#secondary-ruby"
+            role="tab"
+            aria-controls="secondary-ruby">
+            Ruby
+          </a>
+        </div>
+        <div class="tab-content mt-4" id="nav-secondaryContent">
+          <div
+            data-testid="secondary-javascript"
+            class="tab-pane fade active show"
+            id="secondary-javascript"
+            role="tabpanel"
+            aria-labelledby="secondary-javascript-list">
+            <div class="row" style="--bs-gutter-y: 1rem">
+              <div class="col-6">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <div class="badge bg-light text-dark me-2 mb-2">Профессия</div>
+                    <span class="badge bg-info text-white me-2 mb-2">с нуля</span>
+                    <div class="h4"><a class="link-dark stretched-link text-decoration-none" target="_blank" rel="noopener" href="#">Фронтенд-разработчик</a></div>
+                    <div class="small text-muted mb-3">Разработка фронтенд-компонентов для
+                      веб-приложений</div>
+                    <div class="text-muted">
+                      <span class="me-2">
+                        26 января
+                      </span>
+                      <span class="me-2">
+                        10 месяцев
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <div class="badge bg-light text-dark me-2 mb-2">Профессия</div>
+                    <span class="badge bg-info text-white me-2 mb-2">с нуля</span>
+                    <div class="h4"><a class="link-dark stretched-link text-decoration-none" target="_blank" rel="noopener" href="#">Node.js-разработчик</a></div>
+                    <div class="small text-muted mb-3">Разработка бэкенд-компонентов для веб-приложений</div>
+                    <div class="text-muted">
+                      <span class="me-2">
+                        26 января
+                      </span>
+                      <span class="me-2">
+                        10 месяцев
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <div class="badge bg-light text-dark me-2 mb-2">Профессия</div>
+                    <span class="badge bg-warning text-dark me-2 mb-2">Новый</span>
+                    <span class="badge bg-info text-white me-2 mb-2">с нуля</span>
+                    <div class="h4"><a class="link-dark stretched-link text-decoration-none" target="_blank" rel="noopener" href="#">Онлайн-буткемп. Фронтенд-разработчик</a></div>
+                    <div class="small text-muted mb-3">Интенсивное обучение профессии в режиме полного дня</div>
+                    <div class="text-muted">
+                      <span class="me-2">
+                        9 февраля
+                      </span>
+                      <span class="me-2">
+                        4 месяца
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            data-testid="secondary-python"
+            class="tab-pane fade"
+            id="secondary-python"
+            role="tabpanel"
+            aria-labelledby="secondary-python-list">
+            <div class="row" style="--bs-gutter-y: 1rem">
+              <div class="col-6">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <div class="badge bg-light text-dark me-2 mb-2">Профессия</div>
+                    <span class="badge bg-info text-white me-2 mb-2">с нуля</span>
+                    <div class="h4"><a class="link-dark stretched-link text-decoration-none" target="_blank" rel="noopener" href="#">Python-разработчик</a></div>
+                    <div class="small text-muted mb-3">Разработка веб-приложений на Django</div>
+                    <div class="text-muted">
+                      <span class="me-2">
+                        26 января
+                      </span>
+                      <span class="me-2">
+                        10 месяцев
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            data-testid="secondary-ruby"
+            class="tab-pane fade"
+            id="secondary-ruby"
+            role="tabpanel"
+            aria-labelledby="secondary-ruby-list">
+            <div class="row" style="--bs-gutter-y: 1rem">
+              <div class="col-6">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <div class="badge bg-light text-dark me-2 mb-2">Профессия</div>
+                    <span class="badge bg-info text-white me-2 mb-2">с опытом</span>
+                    <div class="h4"><a class="link-dark stretched-link text-decoration-none" target="_blank" rel="noopener" href="#">Разработчик на Ruby on Rails</a></div>
+                    <div class="small text-muted mb-3">Создание веб-приложений со скоростью света</div>
+                    <div class="text-muted">
+                      <span class="me-2">
+                        26 января
+                      </span>
+                      <span class="me-2">
+                        5 месяцев
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+  <script type="module" src="./src/index.js"></script>
+</body>
+</html>

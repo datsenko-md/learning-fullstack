@@ -1,3 +1,5 @@
+/* eslint-disable no-param-reassign */
+/* eslint-disable no-undef */
 
 const render = ({ form, result, input }, state) => {
   result.textContent = state.sum;

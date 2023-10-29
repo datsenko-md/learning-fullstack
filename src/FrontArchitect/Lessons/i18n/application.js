@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 // @ts-check
 /* eslint no-param-reassign: ["error", { "props": false }] */
 
@@ -53,7 +54,7 @@ const changeLang = async (state, elements, lang, prevLang) => {
   prevActive.classList.remove('btn-primary');
   active.classList.add('btn-primary');
   active.classList.remove('btn-outline-primary');
-}
+};
 
 const render = async (elements, state) => async (path, value, prevValue) => {
   switch (path) {
@@ -94,11 +95,10 @@ export default async () => {
 
   Array.from(selectLangContainer.children).forEach((langButton) => {
     langButton.addEventListener('click', (e) => {
-      const lang = e.target.dataset.lang;
+      const { lang } = e.target.dataset;
       state.lang = lang;
       elements.langs[lang] = langButton;
     });
   });
-
 };
 // END

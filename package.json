@@ -29,6 +29,7 @@
     "create-react-app": "^5.0.1",
     "date-fns": "^2.30.0",
     "debug": "^4.3.4",
+    "i18next": "^23.6.0",
     "jquery": "^3.7.0",
     "lodash": "^4.17.21",
     "mock-fs": "^5.2.0",
